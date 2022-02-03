@@ -16,14 +16,19 @@ public class ConfigurationReader {
         String path = "configuration.properties";
 
         FileInputStream file = null;
+
         try {
+
             file = new FileInputStream(path);
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
 
         try {
+
             properties.load(file);
+
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.354 s <<< FAILURE! - in runners.CukesRunner
+runners.CukesRunner.initializationError  Time elapsed: 0.01 s  <<< ERROR!
+cucumber.runtime.CucumberException: 
+gherkin.ParserException$CompositeParserException: Parser errors:
+(11:5): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'And'
+(12:5): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'And'
+Caused by: gherkin.ParserException$CompositeParserException: 
+Parser errors:
+(11:5): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'And'
+(12:5): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'And'
+
